@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartattendance">
+
+    <uses-feature android:name="android.hardware.camera.front" />
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/splash_screen_bkgrnd"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartAttendance">
+        <activity
+            android:name=".StatusActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".StatsActivity"
+            android:exported="false"></activity>
+        <activity
+            android:name=".TeachgenActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".prompt"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".FaceActivity2"
+            android:exported="true">
+            <meta-data
+                android:name="com.google.firebase:firebase-ml-vision.DEPENDENCIES"
+                android:value="face" />
+        </activity>
+        <activity
+            android:name=".FaceActivity"
+            android:exported="false">
+            <meta-data
+                android:name="com.google.firebase:firebase-ml-vision.DEPENDENCIES"
+                android:value="face" />
+        </activity>
+        <activity
+            android:name=".AdpassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrgeneratorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeachregActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrscanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeachActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudregActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Startuppage"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScrn"
+            android:exported="true"
+            android:theme="@style/splash_scrn_bckgrnd">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity">
+
+    <TextView
+        android:layout_width="215dp"
+
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=" present no of days:"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="103dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:background="@drawable/searchview_background"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+
+    <TextView
+
+        android:layout_width="215dp"
+
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=" Total days:"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="103dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:background="@drawable/searchview_background"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+
+        android:layout_width="215dp"
+
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=" % of attendance:"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="103dp"
+        android:layout_height="37dp"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:background="@drawable/searchview_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:background="@drawable/searchview_background"
+        android:text='Back'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.654" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
